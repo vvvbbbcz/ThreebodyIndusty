@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/vvvbbbcz/ThreebodyIndusty/issues"
+[[mods]]
+modId="threebodyindustry"
+version="${file.jarVersion}"
+displayName="ThreeBody Industry"
+# updateJSONURL="http://myurl.me/"
+# displayURL="http://example.com/"
+# logoFile="examplemod.png"
+credits="BinZheng Studio"
+authors="vvvbbbcz"
+description='''
+null [doge]
+'''
+
+[[dependencies.threebodyindustry]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.threebodyindustry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
